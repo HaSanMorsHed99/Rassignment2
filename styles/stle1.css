@@ -35,6 +35,7 @@
     }
     img{
         width:100%;
+        height: auto;
         border-radius: 10px;
     }
 
@@ -68,23 +69,28 @@
         grid-template-columns: 40% 60%;
         gap: 5px;
     }
-    .bgi{
-    background-image: url("architect.png");
-    border-radius: 5px;
-    }
+    
     
     .fve1{
-    grid-template-columns: repeat(1, 1fr);
-    }
-    .fve1{
         display: grid;
-        row-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 5px;
     }
     .dv{
         border-radius: 5px;
         background-color:bisque;
         padding: 10px;
     
+    }
+    @media screen and(max-width: 576px) {
+        .msc2{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        #lbtn{
+            position: relative;
+            margin-top: -20px ;
+        }
+        
     }
       
     .srt{
