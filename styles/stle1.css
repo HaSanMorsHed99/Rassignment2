@@ -13,14 +13,14 @@
     gap: 10px;
 }
 
-@media screen and(max-width:576px) {
+   @media screen and (max-width: 576px) {
     .htop{
     grid-template-columns: repeat(1, 1fr);
+    text-align: center;
     }
     .tmn2{
         grid-template-columns: repeat(1, 1fr);
     }}
-
 
     .hsc2{
         text-align: center;
@@ -28,8 +28,10 @@
     }
     button{
         text-align: center;
-        width: 15%;
+        width: 80px;
+        height: 40px;
         background-color: darkgoldenrod;
+        border-radius: 5px;
     }
     img{
         width:100%;
@@ -46,26 +48,33 @@
     .msu1{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-    }
-   
+         }
+
+        @media screen and (max-width:576px) {
+            .msec1 {
+                grid-template-columns: repeat(1, 1fr);
+            }
+    
+            .msu1 {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
     strong{
         color:chartreuse;
     }
 
-    @media screen and (max-width:576px) {
-        
-
-
-    }
-body{
-    display:grid;
-    gap: 50px;
-}
-
-    .msec2{
+    .msc2{
         display: grid;
         grid-template-columns: 40% 60%;
         gap: 5px;
+    }
+    .bgi{
+    background-image: url("architect.png");
+    /* position: relative; */
+    }
+    
+    .fve1{
+    grid-template-columns: repeat(1, 1fr);
     }
     .fve1{
         display: grid;
@@ -75,15 +84,18 @@ body{
         border-radius: 5px;
         background-color:bisque;
         padding: 10px;
+    
     }
-
-    @media screen and(max-width:576px) {
-        
-    }
+         @media screen and (max-width: 576px) {
+             .msc2 {
+                 grid-template-columns: repeat(1, 1fr);
+                 width: 100%;
+             }
+            }
       
     .srt{
         display: grid;
-grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         justify-content: space-evenly;
 
     }
@@ -97,8 +109,13 @@ grid-template-columns: repeat(4, 1fr);
 
     }
 
-    @media screen {
-        
+    @media screen and (max-width: 576px){
+        .srt{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .rt:hover{
+            transform: rotate(45deg);
+        }
     }
 
     .ft{
@@ -109,6 +126,12 @@ grid-template-columns: repeat(4, 1fr);
         grid-template-columns: repeat(4, 1fr);
         justify-content: space-evenly;
     }
+
+        @media screen and (max-width: 576px) {
+            .fmp {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
     .copyright{
         text-decoration: aqua;
         text-decoration-color: aquamarine;
@@ -116,11 +139,3 @@ grid-template-columns: repeat(4, 1fr);
     h6{
         color: chartreuse;
     }
-    @media screen and(max-width:576px) {
-        
-    .mob{
-        display: colum;
-         
-    }
-}
-
