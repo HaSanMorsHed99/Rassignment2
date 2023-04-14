@@ -1,0 +1,126 @@
+.htop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tmn2{
+    display:grid ;
+    grid-template-columns:repeat(4, 1fr) ;
+    /* justify-content: space-evenly; */
+    text-align: center;
+    gap: 10px;
+}
+
+@media screen and(max-width:576px) {
+    .htop{
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .tmn2{
+        grid-template-columns: repeat(1, 1fr);
+    }}
+
+
+    .hsc2{
+        text-align: center;
+        
+    }
+    button{
+        text-align: center;
+        width: 15%;
+        background-color: darkgoldenrod;
+    }
+    img{
+        width:100%;
+        border-radius: 10px;
+    }
+
+    .msec1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* justify-content:space-evenly; */
+        column-gap: 10px;
+        align-items: center;
+    }
+    .msu1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+   
+    strong{
+        color:chartreuse;
+    }
+
+    @media screen and (max-width:576px) {
+        
+
+
+    }
+body{
+    display:grid;
+    gap: 50px;
+}
+
+    .msec2{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: 5px;
+    }
+    .fve1{
+        display: grid;
+        row-gap: 5px;
+    }
+    .dv{
+        border-radius: 5px;
+        background-color:bisque;
+        padding: 10px;
+    }
+
+    @media screen and(max-width:576px) {
+        
+    }
+      
+    .srt{
+        display: grid;
+grid-template-columns: repeat(4, 1fr);
+        justify-content: space-evenly;
+
+    }
+    .sr{
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+       border: 2px solid yellowgreen;
+       padding: 10%;
+
+    }
+
+    @media screen {
+        
+    }
+
+    .ft{
+        text-align: center;
+    }
+    .fmp{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-evenly;
+    }
+    .copyright{
+        text-decoration: aqua;
+        text-decoration-color: aquamarine;
+    }
+    h6{
+        color: chartreuse;
+    }
+    @media screen and(max-width:576px) {
+        
+    .mob{
+        display: colum;
+         
+    }
+}
+
